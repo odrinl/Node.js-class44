@@ -28,7 +28,7 @@ app.post('/weather', (req, res) => {
   // });
 
   // For now, just send back the cityName as a placeholder
-  res.json({ cityName });
+  res.json(cityName);
 });
 
 // Global error handler middleware
